@@ -1,0 +1,54 @@
+.calculator{
+  width: 310px;
+  height: 430px;
+  margin: 10px auto;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 5px 5px 5px #888888;
+}
+.text{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.numbers{
+  width: 230px;
+  float: left;
+}
+.operations{
+  width: 75px;
+  float: left;
+}
+.number{
+  width: 64px;
+  height: 50px;
+  font-size: 30px;
+  margin: 4px;
+}
+.operator{
+  width: 72px;
+  height: 50px;
+  font-size: 30px;
+  margin: 4px;
+  
+}
+.ac, .ce{
+  width: 102px;
+  background-color: green;
+}
+.zero{
+  width: 140px;
+}
+.numberField{
+  height: 50px;
+  width: 280px;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+button{
+    background: grey;
+    border: 0;
+}
