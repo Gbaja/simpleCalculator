@@ -1,6 +1,6 @@
 .calculator{
   width: 310px;
-  height: 430px;
+  height: 450px;
   margin: 10px auto;
   background: #232526;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
@@ -42,7 +42,7 @@
 }
 .numberField{
   height: 50px;
-  width: 280px;
+  width: 250px;
   display: block;
   margin: 0px auto;
   margin-bottom: 10px;
